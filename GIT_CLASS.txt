@@ -1,0 +1,68 @@
+
+
+git init --> inicializa el directorio y crea el archivo .git
+git status  --> estado de sincronizacion
+git add --> pasar del directorio de trabajo a staging area
+git commit -m
+git diff --> las diferencias 
+
+--ESTADOS EN GIT --
+
+1 estado = directorio de trabajo
+
+2 estado = STAGING AREA --> todos los cmabios deben ir al staging area
+
+3. commit --> coleccion de diferencias, cambios que se han producido y se van a guardar
+
+Agosto 13/08/2018
+Las ramas sirven para trabajar en equipos, y para no dañar el codigo que esta en otra rama,
+puede tener ilimitados commits.
+
+git es repositorio local
+github o gitlab es un host, un lugar para guardar reósitorios en la web.
+
+
+JOINS IMPLICITOS Y JOIN EXPLICITOS
+
+--Join = relacion entre 2 tablas.
+--SQL es estandar.
+-- tiene que haber un campo en comun entre las tablas para poder realizar el join.
+
+
+JOIN IMLICITO 
+-->  SELECT * FROM TABLE A
+     INNER JOIN TABLE B
+	 ON A.ID = B.ID;
+	 
+JOIN EXPLICITO
+--> SELECT A.*, B.*
+    FORM TABLE A, TABLE B
+    WHERE A.ID = B.ID;
+
+
+Arquitectura en una base de datos
+
+-->Procesador query --> storage manager --> Disco duro
+
+Tipos de sentecias SQL
+
+DDL --> DATA DEFINITION LANGUAGE -- MODIFICAR LA BASE DATO, COMO VAS A TENER LA ESTRUCUTURA, COMO SE CREAN, COMO SE CREAN, ETC. DAR Y REVOCAR  PRIVILEGIOS Y ROLES (CREATE, DROP, DROP, TRUNCATE)
+DML --> DTA MODELING LANGUAGE -- SIRVE PARA MANIPULAR LOS DATOS, PARA ORACLE TODO ES OBJETO(TABLA, TABLESPACE, USUARIO, PERMISO, PRIVILEGIO) (SELECT, UPDATE, DELETE, INSERT) 
+TCL --> TRANSACTION CONTROL LANGUAGE	-- MANEJAR TRANSACCIONES EN LA BASE DATOS, MANEJAR CAMBIOS QUE SE HACENEN UNA TABLA,  (COMMIT, ROOLBACK)
+
+GIT CHECKOUT TESTING -- PASARSE DE RAMA
+GIT LOG -- EL HISTROIAL DE GIT
+
+TAREA: ¿DIFERENCIA ENTRE GIT PULL O GIT FETCH?
+
+git remote add origin https://github.com/Basilio9210/clase_noche_bd.git
+git push -u origin master
+
+
+AGOSTO 15 DE 2018
+
+PRACTICAS DE GITHUB
+
+PUEDES MIRAR EN GIT CHEAT SHEET LOS COMANDOS.
+
+--> https://gist.github.com/amartinezg/4f92692d41740f4fc3a82babcb8fc726
